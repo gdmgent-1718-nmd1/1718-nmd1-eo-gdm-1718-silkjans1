@@ -17,7 +17,9 @@ img {
 /* Voeg jouw css hieraan toe */
 
 /* css code voor concurrentieanalyse */
-
+.concurrent {
+    color: tomato;
+}
 /*foto's concurrentieanalyse */
 section {
     display: flex;
@@ -35,5 +37,29 @@ section {
     border-radius: 5px;
     }
 /* voor en nadelen concurrentieanalyse */
+/* .lijstje{
+    list-style-image: url(../images/concurrentiea/plus.png);
 
-
+}
+*/
+.lijstje {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+.pluslist { 
+    padding-left: 16px; 
+}
+.pluslist:before {
+    content: "+"; 
+    padding-right: 8px;
+    color: tomato; 
+}
+.minlist { 
+    padding-left: 16px; 
+}
+.minlist:before {
+    content: "-"; 
+    padding-right: 8px;
+    color: tomato; 
+}
