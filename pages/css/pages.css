@@ -15,7 +15,9 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 /* Voeg jouw css hieraan toe */
-
+a {
+    color: tomato;
+}
 /* css code voor concurrentieanalyse */
 .concurrent {
     color: tomato;
@@ -46,6 +48,8 @@ section {
     list-style: none; /* Remove list bullets */
     padding: 0;
     margin: 0;
+
+
 }
 .pluslist { 
     padding-left: 16px; 
@@ -63,3 +67,5 @@ section {
     padding-right: 8px;
     color: tomato; 
 }
+img:hover {
+    transform: scale(1.5); }
