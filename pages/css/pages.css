@@ -66,9 +66,10 @@ section {
     content: "-"; 
     padding-right: 8px;
     color: tomato; 
+
 }
 img:hover {
-    transform: scale(1.5); }
+    transform: scale(1,5); }
 
 /* User Scenario's */
 .user {
