@@ -38,6 +38,8 @@ section {
     border: 3px solid hsla(4, 57%, 57%, 1);
     border-radius: 5px;
     }
+    img:hover {
+        transform: scale(1.5); }
 /* voor en nadelen concurrentieanalyse */
 /* .lijstje{
     list-style-image: url(../images/concurrentiea/plus.png);
@@ -48,28 +50,36 @@ section {
     list-style: none; /* Remove list bullets */
     padding: 0;
     margin: 0;
-
-
 }
+
+
+
 .pluslist { 
-    padding-left: 16px; 
+    padding-left: 29px; 
+    padding-bottom: 4px;
+  
 }
 .pluslist:before {
     content: "+"; 
+    position: absolute;
     padding-right: 8px;
+    margin-left: -17px;
     color: tomato; 
 }
+
+
 .minlist { 
-    padding-left: 16px; 
+    padding-left: 29px;
+    padding-bottom: 4px;
 }
 .minlist:before {
+    position: absolute;
     content: "-"; 
     padding-right: 8px;
+    margin-left: -17px;
     color: tomato; 
-
 }
-img:hover {
-    transform: scale(1.5); }
+
 
 /* User Scenario's */
 .user {
