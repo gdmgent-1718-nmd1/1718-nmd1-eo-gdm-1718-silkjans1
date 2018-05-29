@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'lemon_birdregular';
+    src: url('../fonts/lemonbird-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lemonbird-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -134,7 +143,7 @@ margin: 30px;
 width: 80px;
 height: 80px;
 border-radius: 50%;
-margin-bottom: 20px;
+margin: 0 auto 20px auto;
 
 }
 .square1{
@@ -171,11 +180,11 @@ margin-bottom: 20px;
 .rodebalk {
     background-color: #CE5C56;
     display: flex;
-    max-width: 1020px;;
+    max-width: 1050px;;
 }
 .logomenu {
     border: none;
-    max-width: 40px;;
+    max-width: 70px;;
     max-height: 30px; 
     margin-top: 10px;
     padding-left: 20px;
@@ -237,7 +246,7 @@ margin-bottom: 20px;
 .titel1 {
 font-size:100px;
 color: #F06C44;
-font-family: lemon bird;
+font-family: 'lemon_birdregular';
 }
 .titel2 {
 font-family: 'Amatic SC', cursive;
@@ -259,3 +268,64 @@ font-size: 15px;
     font-size: 11px;
     
 }
+
+/*Links*/
+
+/*foto julie*/ 
+.cirkelcontainer {
+    position: relative;
+    width: 200px;;
+
+  }
+  
+  .julie {
+    Border: 4px solid #F0AA44;
+    border-radius: 50%;
+    width: 200px;
+    max-width: 100%;
+    max-height: 200px;
+    box-shadow: 5px 5px 1px 3px #133159;
+    display: block;
+    height: auto;
+  }
+.julie:hover {
+    transform: none; }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 4px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFFAF2;
+  }
+  
+  .cirkelcontainer:hover .overlay {
+    opacity: 0.5;
+  }
+
+  .naamtje {
+    color: #2E4059;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* einde foto julie */
+.link {
+    font-family: Avenir, cursive;
+    color: #2E4059;
+    font-size: 15px;
+    text-decoration: underline;
+    }
