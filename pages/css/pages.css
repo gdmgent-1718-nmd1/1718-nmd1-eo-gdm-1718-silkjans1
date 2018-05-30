@@ -25,12 +25,22 @@ img {
 }
 /* Voeg jouw css hieraan toe */
 a {
-    color: tomato;
+    color: #F06C44;
 }
+h1 {
+    font-size:60px;
+    color: #2E4059;
+    font-family: 'lemon_birdregular';
+}
+h2 {
+    font-family: 'Amatic SC', 'Avenir', Helvetica, 'cursive', sans-serif;
+    font-size: 40px;
+    color: #F06C44;
+    }
+
+
 /* Concurrentieanalyse */
-.concurrent {
-    color: tomato;
-}
+
 /*foto's concurrentieanalyse */
 section {
     display: flex;
@@ -40,15 +50,16 @@ section {
 .media { 
     min-width: 0
     }
-   img {
-    width: 360px;
+img {
+    width: 330px;
     max-width: 100%; 
     max-height: 450px; 
     border: 3px solid hsla(4, 57%, 57%, 1);
     border-radius: 5px;
     }
     img:hover {
-        transform: scale(1.5); }
+        transform: scale(1.2);
+    }
 
 /* voor en nadelen concurrentieanalyse */
 .lijstje {
@@ -92,15 +103,7 @@ section {
     padding: 10px;
 }
 /*DIGITAL STYLEGUIDE*/
-.DSh1 {
-    color: #2E4059;
-    
-}
-.DSh2 {
-    color: #CE5C56;
-    text-transform: uppercase;
-    font-size: 25px;
-}
+
 /*logo DS*/
 .logo {
     width: 350px;
@@ -197,6 +200,7 @@ margin: 0 auto 20px auto;
     margin-left: 50px;
     font-size: 14px;
     font-family: Avenir, Avenir next, cursive;
+    text-align: center;
 }
 .blauw {
     color: #133159;
@@ -287,6 +291,7 @@ font-size: 15px;
     box-shadow: 5px 5px 1px 3px #133159;
     display: block;
     height: auto;
+    margin-bottom: 40px;
   }
 .julie:hover {
     transform: none; }
