@@ -37,7 +37,9 @@ h2 {
     font-size: 40px;
     color: #F06C44;
     }
-
+h3 {
+    color:  #2E4059;
+}
 
 /* Concurrentieanalyse */
 
@@ -103,6 +105,33 @@ img {
     padding: 10px;
 }
 /*DIGITAL STYLEGUIDE*/
+.bijschrift {
+    color:rgb(145, 148, 150);
+    font-size: 13px;
+    margin-bottom: -10px;
+    
+}
+.blauw {
+    color: #133159;
+}
+.oranje {
+    color:#F06C44;
+}
+.rood {
+    color: #DA3725;
+}
+.donkerblauw {
+    color: #2E4059;
+}
+.geel {
+    color: #F0AA44;
+}
+.lichtblauw {
+    color: #73A1DF;
+}
+.hemelsblauw {
+    color: #2F76D9;
+}
 
 /*logo DS*/
 .logo {
@@ -115,15 +144,7 @@ img {
 .logo:hover {
     transform: scale(1.2); 
 }
-.blauw {
-    color: #133159;
-}
-.oranje {
-    color:#F06C44;
-}
-.rood {
-    color: #DA3725;
-}
+
     
 /*Kleurenpallet DS */
 .boxkleuren{
@@ -213,6 +234,9 @@ margin: 0 auto 20px auto;
     height: 90px;
     box-shadow: -5px 10px 10px 4px rgba(240, 171, 68, 0.6);
 }
+.knop1:hover{
+    transform: scale(1.1);
+}
 .reserveer {
     color: #133159 ;
     text-transform: uppercase;
@@ -232,6 +256,9 @@ margin: 0 auto 20px auto;
     width: 250px;
     height: 100px;
     box-shadow: 5px 10px #133159;
+}
+.knop2:hover{
+    transform: scale(1.1);
 }
 .kijk {
     color: #133159 ;
@@ -267,11 +294,12 @@ font-family: Avenir, cursive;
 color: #2E4059;
 font-size: 15px;
 }
-.bijschrift {
-    color:rgb(145, 148, 150);
-    font-size: 11px;
-    
+.tekst5 {
+    font-family: 'Playfair Display', serif;
+    color: #2E4059;
+    font-size: 15px;
 }
+
 
 /*Links*/
 
@@ -334,3 +362,5 @@ font-size: 15px;
     font-size: 15px;
     text-decoration: underline;
     }
+
+/*Formulieren*/
